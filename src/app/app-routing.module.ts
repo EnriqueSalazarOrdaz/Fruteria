@@ -7,6 +7,8 @@ import {GameFormComponent} from './components/game-form/game-form.component';
 
 import {IndexComponent} from './components/index/index.component';
 
+import {AboutComponent} from './components/about/about.component'
+
 const routes: Routes = [
   {
   path:'', //1:47 ruta inicial
@@ -28,6 +30,10 @@ const routes: Routes = [
 {
   path:'index',
   component: IndexComponent
+},
+{
+  path:'about',
+  component: AboutComponent
 }
 ];
 

@@ -13,6 +13,7 @@ import { GameListComponent } from './components/game-list/game-list.component';
 
 import {GameService} from './services/game.service';
 import { IndexComponent } from './components/index/index.component';
+import { AboutComponent } from './components/about/about.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { IndexComponent } from './components/index/index.component';
     NavigationComponent,
     GameFormComponent,
     GameListComponent,
-    IndexComponent
+    IndexComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
